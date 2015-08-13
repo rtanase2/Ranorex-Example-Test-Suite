@@ -1,0 +1,8 @@
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\bin\Debug\RachelleTanaseTestSuite.rxtmg
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\bin\Debug\RachelleTanaseTestSuite.rxtst
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\bin\Debug\RachelleTanaseTestSuite.exe.config
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\bin\Debug\RachelleTanaseTestSuite.exe
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\bin\Debug\RachelleTanaseTestSuite.pdb
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\obj\x86\Debug\RachelleTanaseTestSuite.exe
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\obj\x86\Debug\RachelleTanaseTestSuite.pdb
+C:\Users\wc_ka\Documents\Ranorex\RanorexStudio Projects\RachelleTanaseTestSuite\RachelleTanaseTestSuite\obj\x86\Debug\RachelleTanaseTestSuite.csprojResolveAssemblyReference.cache

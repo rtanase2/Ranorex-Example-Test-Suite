@@ -1,0 +1,103 @@
+﻿<testsuite
+name="RachelleTanaseTestSuite"
+rxversion="5.4.0.24580"
+id="58730933-6618-48ef-8581-070c26504f44"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="CallReportTest"
+		id="9ee04ed7-ecff-4d71-a24c-7ad9538c0e13">
+			<testmodule
+			name="OpenBrowser"
+			id="b1f5b486-d17e-4d15-adc7-b4e40aaf133e"
+			ref="b4e2e99c-99df-4842-a852-e581da348d80"
+			type="UserCode"/>
+			<testmodule
+			name="Login"
+			id="13f885bd-75a0-4fe1-a842-d8072fbf5c83"
+			ref="8175fe10-4268-4787-961c-ed497f06d7a4"
+			type="UserCode"/>
+			<testmodule
+			name="ClickMyAccount"
+			id="71f18f65-1d9d-4bcc-8fcd-3336416b8153"
+			ref="af470558-2422-4dd0-8dc7-2339db39d1f3"
+			type="UserCode"/>
+			<testmodule
+			name="SelectCInMyAccounts"
+			id="558e7ba5-a781-46f2-9cbd-e99c56e4c53d"
+			ref="ee8976fc-bd97-4697-a784-3c7e282d15a4"
+			type="UserCode"/>
+			<testmodule
+			name="SelectCanterMark"
+			id="1f7bf5c0-326a-45af-854b-1fc34e1181d8"
+			ref="b7b013ef-5b82-41f1-9195-bec1a3432371"
+			type="UserCode"/>
+			<testmodule
+			name="ClickRecordACall"
+			id="2414ac51-442d-4f54-b9ff-991e74c264ef"
+			ref="fc0ba825-2557-4505-9efb-a59ea1e85d9b"
+			type="UserCode"/>
+			<testmodule
+			name="SelectMassAddPromoCall"
+			id="7cc8969a-3cbf-418b-90ed-e225e48ea5fe"
+			ref="83d1cb69-dd30-4259-9e1c-3173ee8de1a6"
+			type="UserCode"/>
+			<testmodule
+			name="SelectCholecapAndLabrinone"
+			id="b67232cd-b98b-4e0c-abc6-19e5d2736c5c"
+			ref="41fe2c9c-4f00-443e-b34d-3f4e76353159"
+			type="UserCode"/>
+			<testmodule
+			name="ValidateCholecapAndLabrinoneSelections"
+			id="04f52578-9a91-4fe0-8d70-41379638d189"
+			ref="dc489c6e-ed90-4e2d-858f-c6e300d5dfae"
+			type="UserCode"/>
+			<testmodule
+			name="SelectRestolarVideo"
+			id="0d57fe3f-4d74-480d-8f85-d46bc379d7b2"
+			ref="0cbeba76-c999-4fd5-8513-69cbd16bb820"
+			type="UserCode"/>
+			<testmodule
+			name="ChangeRestolarQuantity"
+			id="be61b7a9-04f5-4581-ae76-c14b9277f8c8"
+			ref="0f2548ca-eec7-492b-9d54-291aa95a1c39"
+			type="UserCode"/>
+			<testmodule
+			name="SubmitCallReport"
+			id="955da4c0-3023-4e87-961a-baae4deeb55d"
+			ref="72142b78-cdbf-425f-b12f-2485da9ded7e"
+			type="UserCode"/>
+			<testmodule
+			name="ValidateSubmission"
+			id="753c7e41-a4c8-4aff-9aab-82898d03a79c"
+			ref="99fdadb9-6fcb-4ee2-abbe-7667c3f1b584"
+			type="UserCode"/>
+			<testmodule
+			name="Logout"
+			id="ef676eb9-96e2-48d1-b09b-0efbca98d85e"
+			ref="f45ddc8a-eb4e-43e6-a8c6-f994d241ee09"
+			type="UserCode"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="58730933-6618-48ef-8581-070c26504f44"/>
+			<testcase
+			id="9ee04ed7-ecff-4d71-a24c-7ad9538c0e13"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

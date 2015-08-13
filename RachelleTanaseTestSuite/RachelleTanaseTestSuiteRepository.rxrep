@@ -1,0 +1,18 @@
+﻿<repository
+name="RachelleTanaseTestSuiteRepository"
+id="1c708db7-0cb2-4a04-8895-f135980368f0"
+rxversion="5.4.0.24580">
+  <codegen
+  classname="RachelleTanaseTestSuiteRepository"
+  namespace="RachelleTanaseTestSuite"/>
+  <rootfolder
+  name="Root"
+  id="7e9d0a99-0e95-42fb-8656-41df3cf02481"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

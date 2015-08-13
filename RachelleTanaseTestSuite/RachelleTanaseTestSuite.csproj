@@ -1,0 +1,135 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A5A05A9E-8606-4353-A192-807AFCBFC98D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RachelleTanaseTestSuite</RootNamespace>
+    <AssemblyName>RachelleTanaseTestSuite</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>8154d0d1-198b-411a-ad48-f8c303ae5178</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>caa6e366-2b6d-4730-ac88-5e2723a09ddb</id>
+    </Compile>
+    <Compile Include="ChangeRestolarQuantity.cs">
+      <id>b401cd0d-9e9e-423e-8ab2-9792a7b51d2c</id>
+    </Compile>
+    <Compile Include="ClickMyAccount.cs">
+      <id>7c8fc8d4-d2a2-49ec-9872-76845008143f</id>
+    </Compile>
+    <Compile Include="ClickRecordACall.cs">
+      <id>b4b5c5d3-3cb5-4931-8521-fdbe203659b0</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <id>ff9880cd-df9c-45d0-a5ba-0a7b294b88c0</id>
+    </Compile>
+    <Compile Include="Logout.cs">
+      <id>d4beb62a-0fb2-4dc2-8d2b-c0bf7f545d5d</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <id>7048d209-a567-4361-b2a0-609e796a9468</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>345ea01b-6388-4d7f-b9b3-04d62de7f39e</id>
+    </Compile>
+    <Compile Include="RachelleTanaseTestSuiteRepository.cs">
+      <BoundTo>8154d0d1-198b-411a-ad48-f8c303ae5178</BoundTo>
+      <DependentUpon>RachelleTanaseTestSuiteRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>32e3b24b-fa0d-4578-ae5f-599bf200d985</id>
+    </Compile>
+    <Compile Include="SelectCanterMark.cs">
+      <id>12085d41-5c87-415a-baa3-c1893c0bc025</id>
+    </Compile>
+    <Compile Include="SelectCholecapAndLabrinone.cs">
+      <id>edc249c7-de5f-4239-8c9c-66a51ec03cd4</id>
+    </Compile>
+    <Compile Include="SelectCInMyAccounts.cs">
+      <id>c3cef0bc-fd7e-4942-9817-d78338ea2444</id>
+    </Compile>
+    <Compile Include="SelectMassAddPromoCall.cs">
+      <id>68246ce0-548d-4585-a2e4-07bf75257222</id>
+    </Compile>
+    <Compile Include="SelectRestolarVideo.cs">
+      <id>df7f5714-cb29-457c-b600-4985942124d0</id>
+    </Compile>
+    <Compile Include="SubmitCallReport.cs">
+      <id>29e57a26-6e00-478c-b298-be290b61d436</id>
+    </Compile>
+    <Compile Include="ValidateCholecapAndLabrinoneSelections.cs">
+      <id>824c2cf5-51a3-448b-a2aa-8fe3d4ce74b4</id>
+    </Compile>
+    <Compile Include="ValidateSubmission.cs">
+      <id>7da7d3cf-414a-4663-acc2-e73a9694da04</id>
+    </Compile>
+    <None Include="app.config">
+      <id>85b0acfe-9010-4259-9a1d-ff22095ac6f9</id>
+    </None>
+    <None Include="RachelleTanaseTestSuiteRepository.rximg">
+      <BoundTo>8154d0d1-198b-411a-ad48-f8c303ae5178</BoundTo>
+      <DependentUpon>RachelleTanaseTestSuiteRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>decf6ef7-2f01-40d2-b245-b540e7e19004</id>
+    </None>
+    <None Include="RachelleTanaseTestSuiteRepository.rxrep">
+      <id>8154d0d1-198b-411a-ad48-f8c303ae5178</id>
+      <repoid>1c708db7-0cb2-4a04-8895-f135980368f0</repoid>
+      <reporootid>7e9d0a99-0e95-42fb-8656-41df3cf02481</reporootid>
+    </None>
+    <Content Include="RachelleTanaseTestSuite.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c9c8ae67-97a7-4ea1-bb64-bd380bfb375f</id>
+    </Content>
+    <Content Include="RachelleTanaseTestSuite.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c30148ed-502e-4683-afbe-7c87f8ce7275</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>
